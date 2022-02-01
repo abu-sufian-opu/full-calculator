@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e3f0;
+    box-sizing: border-box;
+}
+.calculetor{
+    width: 600px;
+    background-color: rgba(41, 33, 33, 0.712);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 30px rgba(22, 7, 7, 0.377);
+
+}
+.display{
+    height: 100px;
+    width: 100%;
+    background-color: #505c68;
+    border-radius: 10px;
+}
+.display1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #868f98;
+}
+.display2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: white;
+}
+.keybord{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.changeColor{
+    background: #374353 !important;
+}
+.eql {
+	background-image: linear-gradient(130deg , #fb3769 , #faaa2d);
+	width: 50% !important;
+}
+.keybord-left{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.keybord-right{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.keybord-left button {
+	width: 25%;
+    height: 60px;
+	cursor: pointer;
+    border-radius: inherit;
+    border: 1px solid #505c6883 !important; 
+    outline: none;
+    background-color: #5b6a7d;
+    font-weight: 700;
+    color: white;
+}
+.keybord-right button{
+    width: 33.3%;
+    height: 60px;
+	cursor: pointer;
+    border-radius: inherit;
+    border: 1px solid #505c6883 !important; 
+    outline: none;
+    background-color: #353942;
+    font-weight: 700;
+    color: white;
+}

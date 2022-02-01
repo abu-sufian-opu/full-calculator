@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="calculetor">
+        <div class="display">
+            <div class="display1">0</div>
+            <div class="display2">0</div>
+        </div>
+        <div class="keybord">
+            <div class="keybord-left">
+                <button class="changeColor" onclick="allClear()">CE</button>
+                <button class="changeColor" style="color: #e73b73 !important;" onclick="">C</button>
+                <button class="changeColor" onclick="back()"><i class="fas fa-backspace"></i></button>
+                <button class="changeColor" onclick="calValue('/')">÷</button>
+                <button onclick="calValue(7)">7</button>
+                <button onclick="calValue(8)">8</button>
+                <button onclick="calValue(9)">9</button>
+                <button class="changeColor" onclick="calValue('*')">×</button>
+                <button onclick="calValue(4)">4</button>
+                <button onclick="calValue(5)">5</button>
+                <button onclick="calValue(6)">6</button>
+                <button class="changeColor" onclick="calValue('-')">-</button>
+                <button onclick="calValue(1)">1</button>
+                <button onclick="calValue(2)">2</button>
+                <button onclick="calValue(3)">3</button>
+                <button class="changeColor" onclick="calValue('+')">+</button>
+                <button class="changeColor" onclick="calValue('.')">.</button>
+                <button onclick="calValue(0)">0</button>
+                <button class="eql" onclick="eql()">=</button>
+            </div>
+            <div class="keybord-right">
+                <button onclick="">inv</button>
+                <button onclick="">Red</button>
+                <button onclick="">Sin</button>
+                <button onclick="">Cos</button>
+                <button onclick="">Tan</button>
+                <button onclick="">%</button>
+                <button onclick="">In</button>
+                <button onclick="">Log</button>
+                <button onclick="calValue('!')">!</button>
+                <button onclick="calValue('^')">^</button>
+                <button onclick="calValue('π')">π</button>
+                <button onclick="">e</button>
+                <button onclick="calValue('(')">(</button>
+                <button onclick="calValue(')')">)</button>
+                <button onclick="">√ </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://pagecdn.io/lib/mathjs/9.4.4/math.min.js" crossorigin="anonymous" ></script>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
